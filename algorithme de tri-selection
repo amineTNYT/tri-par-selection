@@ -44,7 +44,7 @@ fin
                                                                 │ i                                │ entier                 │
                                                                 └──────────────────────────────────┴────────────────────────┘
 
-p
+
 procédure affichage(t:tab,n:entier)
 début 
 pour i de 0 à n-1 faire
