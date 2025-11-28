@@ -21,7 +21,7 @@ Vous pouvez :
 Le tri par sélection est l'un des nombreux algorithmes de tri qui existent. Chaque méthode a ses avantages et ses cas d'utilisation.
 
 Le fichier `name.py` est prêt à être utilisé. Vous pouvez l'essayer pour voir comment le tri fonctionne en pratique.
-<ul style="list-style-type: square;">
+<ul style="list-style-type: triangle;">
   <li>Parcourir le tableau</li>
   <li>Trouver l'élément minimum</li>
   <li>Échanger avec la position actuelle</li>
