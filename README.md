@@ -4,17 +4,17 @@ Ce dépôt explique comment fonctionne le tri par sélection. C'est un algorithm
 
 ## Contenu
 
-· Une explication simple du tri par sélection
-· Le code Python qui montre comment ça marche
-· Un exemple clair pour comprendre chaque étape
+* Une explication simple du tri par sélection
+* Le code Python qui montre comment ça marche
+* Un exemple clair pour comprendre chaque étape
 
 ## Utilisation
 
 Vous pouvez :
 
-· Copier le code pour vos projets
-· Télécharger le fichier ``name.py``
-· Tester le code avec vos propres tableaux
++ Copier le code pour vos projets
++ Télécharger le fichier ``name.py``
++  Tester le code avec vos propres tableaux
 
 ## Information
 
