@@ -13,11 +13,11 @@ Ce dépôt explique comment fonctionne le tri par sélection. C'est un algorithm
 Vous pouvez :
 
 + Copier le code pour vos projets
-+ Télécharger le fichier ``name.py``
++ Télécharger le fichier ``tri-selection -python.py`` 
 +  Tester le code avec vos propres tableaux
 
 ## Information
 
 Le tri par sélection est l'un des nombreux algorithmes de tri qui existent. Chaque méthode a ses avantages et ses cas d'utilisation.
 
-Le fichier `name.py` est prêt à être utilisé. Vous pouvez l'essayer pour voir comment le tri fonctionne en pratique.
+Le fichier `tri-selection -python.py` est prêt à être utilisé. Vous pouvez l'essayer pour voir comment le tri fonctionne en pratique.
