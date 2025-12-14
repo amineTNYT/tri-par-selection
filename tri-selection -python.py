@@ -13,7 +13,7 @@ def remplir(t, n):
         t[i] = int(input("t[" + str(i) + "]=:"))
 
 # Fonction de tri du tableau (tri par sélection)
-def tri_bulle(t, n):
+def tri_seléction(t, n):
     # Parcourir tous les éléments du tableau
     for i in range(n-1):
         # Position du minimum actuel
@@ -45,8 +45,9 @@ afficher(t, n)
 print()
 
 # Trier le tableau
-tri_bulle(t, n)
+tri_seléction(t, n)
 
 # Afficher le tableau après le tri
 print("le tableau aprés le tri")
 afficher(t, n)
+
