@@ -58,6 +58,4 @@ aux: réel
 <img width="1110" height="636" alt="Capture d’écran 2025-11-04 193925" src="https://github.com/user-attachments/assets/89ce2958-6bdd-474f-a7f3-eedbaae72913" />
 ### 🎥 Vidéo Démo : Tri par Sélection Animé (Explication Pas à Pas)
 
-[![Tri par Sélection Animé - Cliquez pour regarder](https://img.youtube.com/vi/r7g38PYUIAU/maxresdefault.jpg)](https://www.youtube.com/watch?v=r7g38PYUIAU)
-
-*Cliquez sur l'image pour lancer la vidéo sur YouTube (animation interactive, code Python & pseudocode expliqués !)*
+https://github.com/user-attachments/assets/9c44a92e-6274-4ad8-84fb-dfcf6089038e
