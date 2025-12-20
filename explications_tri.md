@@ -49,19 +49,15 @@ aux: caractère(aux="")
 // Pour un tableau de nombres réels
 aux: réel
 ```
-### 🎥 Démo Vidéo : Tri par Sélection Animé
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000; border-radius: 10px;">
-  <iframe 
-    src="https://www.youtube.com/embed/r7g38PYUIAU?rel=0" 
-    title="Tri par Sélection - Animation Interactive" 
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" 
-    allowfullscreen>
-  </iframe>
-</div>
+
 
 **Toujours déclarer `aux` avec le même type de données que les éléments du tableau** pour éviter les erreurs de type lors des opérations d'échange.
 <img width="1691" height="825" alt="Capture d’écran 2025-11-04 193836" src="https://github.com/user-attachments/assets/e8897224-c346-4875-972d-8f2138182e4c" />
 <img width="1651" height="762" alt="Capture d’écran 2025-11-04 193906" src="https://github.com/user-attachments/assets/99d4cf07-18f0-41ac-9fe1-99aae921f849" />
 <img width="1110" height="636" alt="Capture d’écran 2025-11-04 193925" src="https://github.com/user-attachments/assets/89ce2958-6bdd-474f-a7f3-eedbaae72913" />
+### 🎥 Vidéo Démo : Tri par Sélection Animé (Explication Pas à Pas)
 
+[![Tri par Sélection Animé - Cliquez pour regarder](https://img.youtube.com/vi/r7g38PYUIAU/maxresdefault.jpg)](https://www.youtube.com/watch?v=r7g38PYUIAU)
+
+*Cliquez sur l'image pour lancer la vidéo sur YouTube (animation interactive, code Python & pseudocode expliqués !)*
