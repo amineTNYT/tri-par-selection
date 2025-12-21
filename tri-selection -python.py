@@ -1,7 +1,7 @@
 from numpy import array
 
 # Fonction pour saisir et valider la taille du tableau
-def sasir():
+def saisir():
     n = int(input("Donner le taille du tableau=:"))
     while not (3 <= n <= 5):
         n = int(input("Donner taille du tableau=:"))
@@ -12,21 +12,15 @@ def remplir(t, n):
     for i in range(0, n):
         t[i] = int(input("t[" + str(i) + "]=:"))
 
-# Fonction de tri du tableau (tri par sélection)
-def tri_seléction(t, n):
-    # Parcourir tous les éléments du tableau
-    for i in range(n-1):
-        # Position du minimum actuel
-        pMin = i
-        # Chercher le minimum dans la partie non triée
-        for j in range(i+1, n):
-            if t[j] < t[pMin]:
-                pMin = j
-        # Échanger les éléments si nécessaire
-        if i != pMin:
-            aux = t[i]
-            t[i] = t[pMin]
-            t[pMin] = aux
+
+# procédure de tri utilisant l'algorithme de tri par sélection
+def tri(t,n):
+    for i in range(n):
+        for j in range(i+1,n):
+            if t[i]>t[j]:
+                aux=t[j]
+                t[j]=t[i]
+                t[i]=aux
 
 # Fonction pour afficher le tableau
 def afficher(t, n):
@@ -35,7 +29,7 @@ def afficher(t, n):
         print(t[i], end="|")
 
 # Programme Principal
-n = sasir()  # Saisir la taille du tableau
+n = saisir()  # Saisir la taille du tableau
 t = array([int()]*n)  # Créer un tableau numpy de taille n
 remplir(t, n)  # Remplir le tableau avec les valeurs
 
@@ -50,4 +44,5 @@ tri_seléction(t, n)
 # Afficher le tableau après le tri
 print("le tableau aprés le tri")
 afficher(t, n)
+
 
